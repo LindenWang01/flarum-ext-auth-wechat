@@ -1,0 +1,40 @@
+{
+    "name": "ryccheen/flarum-ext-auth-wechat",
+    "description": "Allow users to login with wechat.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryen",
+            "email": "xls9009@163.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/RycCheen/flarum-ext-auth-wechat/issues",
+        "source": "https://github.com/RycCheen/flarum-ext-auth-wechat"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6",
+        "ryccheen/flarum-oauth2-wechat": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "RycCheen\\Auth\\Wechat\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Wechat Login",
+            "icon": {
+                "name": "wechat",
+                "backgroundColor": "#22aa00",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

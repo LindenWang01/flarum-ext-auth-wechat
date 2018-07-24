@@ -1,0 +1,6 @@
+### flarum-ext-auth-wechat ###
+# some unnecessary files for plugins
+js/admin/dist
+js/admin/node_modules
+js/forum/dist
+js/forum/node_modules
