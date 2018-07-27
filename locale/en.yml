@@ -19,3 +19,7 @@ ryccheen-auth-wechat:
     # These translations are used in the Log In modal dialog.
     log_in:
       with_wechat_button: Login with Wechat
+
+    # These translations are used in the Settings modal dialog.
+    bind:
+      with_wechat_button: Bind Wechat Account

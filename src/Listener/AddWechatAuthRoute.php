@@ -29,5 +29,6 @@ class AddWechatAuthRoute
     public function configureForumRoutes(ConfigureForumRoutes $event)
     {
         $event->get('/auth/wechat', 'auth.wechat', 'RycCheen\Auth\Wechat\WechatAuthController');
+        $event->get('/bind/wechat', 'bind.wechat', 'RycCheen\Auth\Wechat\WechatBindController');
     }
 }
